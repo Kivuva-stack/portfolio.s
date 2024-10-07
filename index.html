@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Personal Portfolio</title>
+    <title>Kivuva's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -13,58 +13,104 @@
         <a href="#" class="logo">Kivuva</a>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Interest</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#interest">Interest</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
 
             </ul>
         </nav>
         <a href="DownloadCv" class="cv">Download CV </a>     
     </div>
-    <div class="home">
-        <h2>Im Christopher</h2>
-        <p>Frontend Guru</p>
-        <img src="Profile Picture.jpg" width="100vh" height="130vh">
+    <div class="welcome">
+        <h2>Welcome To Kivuva's Portofilo</h2>
     </div>
-    <div class="AboutMe">
-        <h2>About Me</h2>
-        <p>I am an organised Proffesional Frontend Developer, efficient and hard working, <br>
-            And am willing to discover and accept new ideas which can be put into practice effectively.</p>
+    <section class="home" id="home">
+        <div class="home-details">
+            <h3>Hi I'm</h3>
+        <h2><span>Christopher Kivuva</span></h2>
+        <p>A Frontend Guru Developer
+        I am an organised <br>
+        Proffesional Frontend Developer,
+         efficient and hard working. <br>
+         Am willing to discover and accept new ideas which<br>
+          can be put into practice effectively.</p>
     </div>
-    <div class="Interest">
+    <div class="image-1">
+        <img src="Pp.jpg">
+    </div>
+    </section>       
+     <div class="interest" id="interest">
         <h2>Interest</h2>
-        <uL>
-            <li>
-                <p>Photography</p>
-                <img src="Photography.jpg" width="100vh" height="130vh">
-            </li>
-            <li>
-                <p>Reading Novels</p>
-                <img src="Reading Novels.jpg" width="100vh" height="130vh">
-            </li>
-            <li>
-                <p>Researching</p>
-                <img src="Researching.jpg" width="100vh" height="130vh">
-            </li>
-        </uL>
+     <div class="row">
+        <div class="column">
+            <img src="novels.jpg"  width="100%">
+        </div>
+        <div class="column">
+            <img src="Photography.jpg" width="100%">
+        </div>
+        <div class="column">
+            <img src="hicking.jpg" width="100%">
+        </div>
+     </div>
     </div>
-    <div class="Skills">
-        <h2>Skills</h2>
-        <div class="icons">
+    <div class="skills" id="skills">
+        <h2>skills</h2>
             <ul>
-                <li>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcZJREFUSEvF1UvITWEUxvHfFzGQKDOlzCQGKBlIFKHkkoHMRDJzSULJTAkpXxgpmUkGcokiuYwM5JKSqTATCROX2KsWbbuzz7udOn1vncHZ73rW/33W+5x9Rgx5jQy5vzEBnMHcAZ29wM66tpeDa1g7ICC060uAc9g+ICC0O0qAIziURafwqQCbgj1ZE9rDJcAujGbRPDwvAObjSdaE9nQJsAmXsuhZHwexFydfjVtZH9rLJcAy3OtwB1ewEVtxPutD+6AEmI2XDcCrmqs/W09xFQdxNB+GNmr/rl4xnYb3DcDDytXSFlcRhN25F9oPJUBAv2F8rfArHjcAx3ETF6tTb66S971yMhG/SoDYf4fp1Y8mxrAXiytgRLC+1uF63lfM/i1mNF22vYuicUQ0khIxXIIYU30tTFcx81l5mAVdARG7iN9rzEzRnHTyo9p7VAvCR0zNca3pCriALYhmZ3ED9/N79JiA5ZXDDbVXQ2gisv+sthEdw/5G7eeceVx+nHRSj0s/0BWwr2pwoiWWbY9Dc7IrINKwDSur18AijGvp+jPv407+mt90BdTrJmMFViUwmt7Oz1186ed0TP4y/3P0/cuH7uA3NCNTGc7pG8UAAAAASUVORK5CYII="/>"
-                </li>
-                <li>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb9JREFUSEvV1UuoT1EUx/HPVWREMaKkSBSSV3mUR16FFEWUQgZKKWXCgPJIUZgYGMhjQCEmRCFJSRgoosRAwpCkGIicVevqOjl3n/51k11nsvdvre9er3269PHq6mP//gngKSZ2GFnYTupp+7cIbmNBh4CwXVQCnMe6DgHnsL4EOIbtKVqFTwXYkCqll1NzFDtKgF04mKIJeF4AhOZZanbiUAmwCadSNB93cQRTG0CDMDnPNuJsCbC8cnY1RWtxARerSFa3qMtS3CgBpuNRirbhOMZiWAMgwFvzbAqelAAj8SZFB7C7cPOoV9Qt1gi8KwEG4luK3ldt97oBcBjXcRKbUzMA30uAOP+MKN5DRGfMwd4aaEXW6hqW4SOG1i/T9BbFrUcnYAaim+7UjGM/LvAY06rhfIlxbQH3MSvTMyaNxmN2VZMfeIAXuf82c38Pc9sCrmAlvmZ+w/hDzXh4NSPzcAb9camCrmkLOIEtNfErBCiczUR3ZN2yaOdo6z9WUw32tWjPuq892N8WMAobqlwvQQxev4ZW/ZlDeROne8zPb3mbP9pgLMTifOujyLfyi/f/S2+D2AZQGOTej/9/wC+swE0ZUpiktgAAAABJRU5ErkJggg=="/>
-                </li>
-                <li>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1b8rhXEUx/HXTbFZ5McgA4pFiQys/AWUzXAzKIOymGwGmxJSSjYbf4LVYDdaTBhkEIsf3299Hz3R7f6+Ge53eYbvc87nvD/nPOcpaPIpNDm/lgt8NYjop/DfBG2BzOG2RWVn7f9atIQBHOENW7jFJDYxmNhqJujDCK6xhhOM4hELuKhXoDcljAJTuMMTngNVvMsqr5kgL7CBA8wEgnWsoKNegrxFn9jFfqKYxhW6cyR/tmm5XdSP4dSDbFY/Uj9OQ/K91OyKLYrBx5jFeLCkB/M4wyrm0iRdhmlaDhbtYLsagheM4SH3aR2m5NGSOKLZ6cJNmKSJagRi8D3O8Y4hFFPG10QXn51YTMXE64otKrsTSrxQUqDWhCXjWv5PbjjBN42gOxnLfKPpAAAAAElFTkSuQmCC"/>
-                </li>                 
+                <li> HTML </li>
+                <li> CSS</li>
+                <li>JS </li>                
             </ul> 
         </div>
     </div>
+    <div class="contact-Form" id="contacts">
+        <h2 class="contact-me">
+            Contact Me</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text"  placeholder="Full Name">
+            </div>
+                <div class="input-box">
+                <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                <input type="text"   placeholder="subject">
+                </div>
+                <div class="input-box ">
+                    <input type="text"   placeholder="Your Message">
+                    </div>
+            <button type="Send" class="btn"> Send</button>
+        </form>
+    </div>
+    <footer class="footercontainer" id="FAQ">
+        <div class="socialicons">
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcFJREFUSEu11T+oT2EYwPHPLYUwyCIki0GRjKRkEJIuMYgsFDKIlAzyJxnUFQburTtYlEEU+TORQWajvyXCYjAoinCeen86vZ3znt8P92znff58n+d9/rxDJvgbmmD/ugCTsQXrsBQL8Atv8BT3cRPf2wItAdbjcnJaSvQV9uFBk1Ib4GQV6YkBru8njuBcbtMEOIXjAzivqx7ExfpBDtiI2wXnn3AYj/A26Y2ks/iNTFbhcc9HHTAdLzG7BfADi/E8k9cBIQr5kl7h64Ao1Ggh+mvYXpOvwQqsxfLMbhNuxVkdcAcbCoBjOJPkW3G9oDuOPTngPeYUjA7hQpJHMc8XdGNGluWAr5jynwCfq26amQO+YFoG+NiRVag/xOrMLnzNyAEvsDBT/IC5HTPxDvMynWdYlAOuVm26Y8AMYld9awjgSjUnu3LANkQrtn2DFLmxTSfhNea3EPoF/LmePIP4jw167x8AscpX4knPR9Oyi2V1oAHSTwan80XZBIizsd4k1kBdgLNVwY/mgZUenJ1pWmclozZAbIC9uNt0tV1P5lTsxub0NF5KTvZjuNqaNxAt+VdPZsd89SfuyqA/LwWt33YeVhnsaaE0AAAAAElFTkSuQmCC"/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEvF1T+ozmEUB/DPdUlSN5KUwcLtJv/jjpiMZHCVYjESxSCDlAwGJYrproRBYpJFuotYkKRkUCYWhZL/z9Hze3s8fr/cN73dM73vOec533O+589vyIBlaMDxzRjAchzFZqymM5GfeIYpnMfLmpG2Cg5k5zl90vcVBzFZvqsBNuIhZvUZvHH/hk140ihqgJvY2Ufwt1iDCVzM724k2nZ1AbzGshaANziD51iEMRxH+AdAZP0ov3uFFV0AHzG/AribM/qAxdn2DqtwB59SzxZgSbaF30gbQPD+vQoegUZzsL3Yipic+ynLyxjOE1Q+iz70BqTsQSi/VABncSxlfgkxXaUE54dwG9sLQyQ5u62CUMaolbIft3LGsQ+lPMU6nEx7cqow/MiV/VaVFcTvMJYSc30tUXMPayvb4wS+ASdSwNOVrRe3HtPgt5TgeR8u4HBli809kivcUdg6exA+NUBUtB7zsAdbcqBo8tU0unNbmvw5+/9FUSjaxjRmPZYvKCkl7lTQt7TSv08VL2x0NUVxrHpLUjUuNrRctG1V4ObvC6zsArieguzueDhd9RXEzrRSNI4H/3ns4mDGCLcChHKg57oBLj84ccy6pPzgnEsjHYfuD5mxT+Z0G/pPv4FX8AszSlgZRYBdrAAAAABJRU5ErkJggg=="/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASxJREFUSEvl1TsvBFEYh/HfCp2Igso3oNXoKFQKIa6hk/AtJD6GS4m4h0InLo1G7xPoRKUl7Elem81erZndxlQzOe88z5z/Oe+cgjZfhTbzdVxwh/GMs7rHxA+jcgZfGeFV3EaC66ie+oO0xK0nOMBqgA+x3KKkqWAX6wHdw1regnfsowsr6M1b8IrngA5jsLgzHuJ5CP3YxgdGMFfxAU0jOsZSvHSERUo9M4MnvJRBN4vjW2XPTQUnAU3vJNlCxFVvG3fjDX0hySTowRVGQ5waK12PGMtDkLr0NkA72Ij7S0znIUhrcBGgWlGmoaYRncb0U3GCzCPl/IlZnIfgLMbK6/6JoFGjDURzpShq1f0qohb/DFXldRc5jwPnBpM/yo4fmVmjqZ9V7uQAfgNR+VIZag7oTQAAAABJRU5ErkJggg=="/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAi9JREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGS+R+f7ent77/vafPWd1e3e8z/P/zznOc9t0srR1Mr1tQmAsViAyRiCX7iFO7iAB/VYqNdBPxzGDHzOQk/wDaMxEj2wG1vwvRZQGUDc9Bo6YAOO40+NAmsT4AXm4VF1Ti2AXriXVEzF8wZCGFF0dAbtMBxfKvNrAZzDeIzDy4KmPuiGp3WAAuQ+jmBlPYBJuIFlmTwsu3mHASU0NdfbjB2YjkvNL6s72Iel6FkM7kfR7ibszOQY9sU6XXRKMQRdc8sAHuI15mTCKhzI5wA+2mAecT5iVBnAm4L/mMGKTOidc/iIkO3PBgCHsAjdywCe5bAWVhQKKe7FQaxpMIegcz06lgGcT/4nVN30ZG5z8BuAnZOuUM2pomh0GBF5YzC4DGB7DrYv3laAtC+A92A1PvHPw0K6EbvyTOzBe5zG8jKAgblY24qErTX4npZ0Dc1vvzEzZRncn0hraVFbrUULJYShhcmVRdAQg3yVIuiPuwivmlJ5qBqgS/IZ+7CxgWKaP0fxywkY2x8yb4lqgNk4W9C0GNF+bOXtYouP4WsVYMxpCdalssK3Gprd/hxkc604MCit+HrSEa4aXjUxk27m9tc0xeoOwkMi8SquFJL8UNhx1+Jm84sfzCyEfMNGHqdnhUSD+9JoE7/M/5x17bRW7+Av0jpxGTt6Zt0AAAAASUVORK5CYII="/></a>
+        </div>
+        <div class="footernav">
+            <ul>
+                <li>
+                    <a href="">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footerbottom">
+            <p class="copyright">&copy;2024 Kivuva | All Rights Reserved</p>  
+    </footer>
 </body>
 </html>
